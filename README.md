@@ -23,3 +23,10 @@ Data structures and Algorithms with JavaScript
 - longer the array more the spacw
 - if for n input n elements in an array addad it would be O(n)
 - similar goes of O(n^2) or others
+
+#### Effects of complexity on programming language (JavaScript):
+- assigning, changing, getting a value from a key in an object has a complexity of O(1)
+- searching has O(n) though
+- adding value at the end of an array has complecity O(1)
+- but adding at first has to reassign index for all latter values so O(n)
+- searchning in arrays also take O(n) time
